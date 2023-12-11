@@ -4,7 +4,9 @@
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 [![License: MIT][license_badge]][https://github.com/bamlab/bam_analysis/blob/main/LICENSE]
 
-A Very Good Project created by Very Good CLI.
+We want to share our appreciation of what a good analysis configuration can do for your project. This package is a collection of our best practices and analysis rules that we use in our projects at [BAM](https://www.bam.tech/).
+
+This package is inspired by [Very Good Analysis][very_good_analysis_link] and [Very Good CLI][very_good_cli_link].
 
 ## Installation 💻
 
@@ -49,6 +51,12 @@ genhtml coverage/lcov.info -o coverage/
 # Open Coverage Report
 open coverage/index.html
 ```
+
+## 👉 About Bam
+
+We are a 100 people company developing and designing multiplatform applications with [React Native](https://www.bam.tech/expertise/react-native) and [Flutter](https://www.bam.tech/expertise/flutter) using the Lean & Agile methodology. To get more information on the solutions that would suit your needs, feel free to get in touch by [email](mailto://contact@bam.tech) or through or [contact form](https://www.bam.tech/contact)!
+
+We will always answer you with pleasure 😁
 
 [flutter_install_link]: https://docs.flutter.dev/get-started/install
 [github_actions_link]: https://docs.github.com/en/actions/learn-github-actions
