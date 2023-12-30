@@ -27,7 +27,7 @@ Then, add an include in `analysis_options.yaml`:
 include: package:bam_analysis/bam_analysis.yaml
 ```
 **Optional**: enable DCM.
-This packages also include a subset of [dcm](https://dcm.dev) rules. Since dcm needs an API key to start. You can skip this part. Also, we consider it as a great tool, and we recomande it's usage.
+This packages also include a subset of [dcm](https://dcm.dev) rules. Since dcm needs an API key to start. You can skip this part. Also, we consider it as a great tool, and we recommend it's usage.
 
 First instal dcm:
 ```bash
