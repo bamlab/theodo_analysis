@@ -63,6 +63,9 @@ dart_code_metrics:
   rules:
     - avoid-inferrable-type-arguments
 ```
+> The list of all available dart rule can be found [here](https://dart.dev/tools/linter-rules/all).
+> And the list of all available dcm rules can be found [here](https://dcm.dev/docs/rules/).
+
 You can also disable it for specific files or folder. By default, bam_analysis will not be applied to generated files.
 ```yaml
 include: package:bam_analysis/bam_analysis.yaml
