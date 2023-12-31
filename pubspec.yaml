@@ -1,5 +1,5 @@
 name: bam_analysis
-description: We want to share our appreciation of what a good analysis configuration can do for your project. This package is a collection of our best practices and analysis rules that we use in our projects at BAM.
+description: Lint and dcm rules for Dart and Flutter used internally at BAM ❤️💙💛.
 homepage: https://github.com/bamlab/bam_analysis
 repository: https://github.com/bamlab/bam_analysis
 version: 0.1.0+1
