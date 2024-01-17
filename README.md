@@ -1,72 +1,87 @@
-# Bam Analysis
+# BAM Analysis
 
-[![style: very good analysis][very_good_analysis_badge]][very_good_analysis_link]
-[![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
-[![License: MIT][license_badge]][https://github.com/bamlab/bam_analysis/blob/main/LICENSE]
-
-We want to share our appreciation of what a good analysis configuration can do for your project. This package is a collection of our best practices and analysis rules that we use in our projects at [BAM](https://www.bam.tech/).
-
-This package is inspired by [Very Good Analysis][very_good_analysis_link] and [Very Good CLI][very_good_cli_link].
-
-## Installation 💻
-
-**❗ In order to start using Bam Analysis you must have the [Flutter SDK][flutter_install_link] installed on your machine.**
-
-Install via `flutter pub add`:
-
-```sh
-dart pub add bam_analysis
-```
+<p>
+  <a href="https://www.bam.tech">
+  <img  alt="logo" src="https://raw.githubusercontent.com/bamlab/bam_analysis/main/doc/logo_bam.png" width="200"/>
+  </a>
+  </br>
+  <p>Lint and dcm rules for Dart and Flutter used internally at <a href="https://www.bam.tech">BAM</a> ❤️💙💛.</p>
+  <b>Note:</b> This package was heavily inspired by <a href="https://github.com/VeryGoodOpenSource/very_good_analysis">very_good_analysis</a>.
+</p>
 
 ---
 
-## Continuous Integration 🤖
+## 🧑‍💻 Usage
 
-Bam Analysis comes with a built-in [GitHub Actions workflow][github_actions_link] powered by [Very Good Workflows][very_good_workflows_link] but you can also add your preferred CI/CD solution.
+To use the lints, add as a dev dependency in your `pubspec.yaml`:
 
-Out of the box, on each pull request and push, the CI `formats`, `lints`, and `tests` the code. This ensures the code remains consistent and behaves correctly as you add functionality or make changes. The project uses [Very Good Analysis][very_good_analysis_link] for a strict set of analysis options used by our team. Code coverage is enforced using the [Very Good Workflows][very_good_coverage_link].
-
----
-
-## Running Tests 🧪
-
-For first time users, install the [very_good_cli][very_good_cli_link]:
-
-```sh
-dart pub global activate very_good_cli
+```yaml
+dart pub add dev:bam_analysis
+# or
+flutter pub add dev:bam_analysis
 ```
 
-To run all unit tests:
+Then, add an include in `analysis_options.yaml`:
 
-```sh
-very_good test --coverage
+```yaml
+include: package:bam_analysis/bam_analysis.yaml
+```
+**Optional**: enable DCM.
+This packages also include a subset of [dcm](https://dcm.dev) rules. Since dcm needs an API key to start. You can skip this part. Also, we consider it as a great tool, and we recommend it's usage.
+
+First instal dcm:
+```bash
+$ brew tap CQLabs/dcm
+$ brew install dcm
+```
+Then, [activate the license](https://dcm.dev/docs/getting-started/#activating-the-license):
+```bash
+dcm activate --license-key=YOUR_KEY
 ```
 
-To view the generated coverage report you can use [lcov](https://github.com/linux-test-project/lcov).
+## ⚙️ Customize rules
 
-```sh
-# Generate Coverage Report
-genhtml coverage/lcov.info -o coverage/
+To add or suppress a specific rules, you can edit the `analysis_options.yaml` file.
 
-# Open Coverage Report
-open coverage/index.html
+Suppression: 
+```yaml
+include: package:bam_analysis/bam_analysis.yaml
+linter:
+  rules:
+    public_member_api_docs: false
+dart_code_metrics:
+  rules:
+    - member-ordering: false
 ```
+Addition:
+```yaml
+include: package:bam_analysis/bam_analysis.yaml
+linter:
+  rules:
+    - no_leading_underscores_for_local_identifiers
+dart_code_metrics:
+  rules:
+    - avoid-inferrable-type-arguments
+```
+> The list of all available dart rule can be found [here](https://dart.dev/tools/linter-rules/all).
+> And the list of all available dcm rules can be found [here](https://dcm.dev/docs/rules/).
 
-## 👉 About Bam
+You can also disable it for specific files or folder. By default, bam_analysis will not be applied to generated files.
+```yaml
+include: package:bam_analysis/bam_analysis.yaml
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.graphql.dart"
+dart_code_metrics:
+  rules-exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.graphql.dart"
+```
+## 👉 About BAM
 
-We are a 100 people company developing and designing multiplatform applications with [React Native](https://www.bam.tech/expertise/react-native) and [Flutter](https://www.bam.tech/expertise/flutter) using the Lean & Agile methodology. To get more information on the solutions that would suit your needs, feel free to get in touch by [email](mailto://contact@bam.tech) or through or [contact form](https://www.bam.tech/contact)!
+We are a 130 people company developing and designing multiplatform applications with [React Native](https://www.bam.tech/expertise/react-native) and [Flutter](https://www.bam.tech/expertise/flutter) using the Lean & Agile methodology. To get more information on the solutions that would suit your needs, feel free to get in touch by [email](mailto://contact@bam.tech) or through or [contact form](https://www.bam.tech/contact)!
 
 We will always answer you with pleasure 😁
-
-[flutter_install_link]: https://docs.flutter.dev/get-started/install
-[github_actions_link]: https://docs.github.com/en/actions/learn-github-actions
-[license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
-[license_link]: https://opensource.org/licenses/MIT
-[logo_black]: https://raw.githubusercontent.com/VGVentures/very_good_brand/main/styles/README/vgv_logo_black.png#gh-light-mode-only
-[logo_white]: https://raw.githubusercontent.com/VGVentures/very_good_brand/main/styles/README/vgv_logo_white.png#gh-dark-mode-only
-[mason_link]: https://github.com/felangel/mason
-[very_good_analysis_badge]: https://img.shields.io/badge/style-very_good_analysis-B22C89.svg
-[very_good_analysis_link]: https://pub.dev/packages/very_good_analysis
-[very_good_cli_link]: https://pub.dev/packages/very_good_cli
-[very_good_coverage_link]: https://github.com/marketplace/actions/very-good-coverage
-[very_good_workflows_link]: https://github.com/VeryGoodOpenSource/very_good_workflows
