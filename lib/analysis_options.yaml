@@ -458,4 +458,3 @@ dart_code_metrics:
     - avoid-collection-equality-checks
     - avoid-multi-assignment
     - prefer-switch-with-sealed-classes
-    - prefer-single-declaration-per-file
