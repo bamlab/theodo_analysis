@@ -20,7 +20,7 @@ jobs:
       - uses: dart-lang/setup-dart@v1
 
       - id: dotenv
-        uses: falti/dotenv-action@v0.2.8
+        uses: falti/dotenv-action@v1.1.2
         with:
           path: .github/workflows/.env
 
