@@ -2,7 +2,7 @@ name: bam_analysis
 description: Lint and dcm rules for Dart and Flutter used internally at BAM.
 homepage: https://github.com/bamlab/bam_analysis
 repository: https://github.com/bamlab/bam_analysis
-version: 0.1.0+1
+version: 1.0.0
 publish_to: none
 
 environment:
