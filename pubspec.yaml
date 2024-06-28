@@ -1,7 +1,7 @@
-name: bam_analysis
-description: Lint and dcm rules for Dart and Flutter used internally at BAM.
-homepage: https://github.com/bamlab/bam_analysis
-repository: https://github.com/bamlab/bam_analysis
+name: theodo_analysis
+description: Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.
+homepage: https://github.com/bamlab/theodo_analysis
+repository: https://github.com/bamlab/theodo_analysis
 version: 1.0.0
 
 environment:

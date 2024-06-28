@@ -1,4 +1,4 @@
-name: bam_analysis_example
+name: theodo_analysis_example
 version: 0.0.1
 publish_to: none
 
@@ -6,5 +6,5 @@ environment:
   sdk: ">=2.18.0 <3.0.0"
 
 dependencies:
-  bam_analysis:
+  theodo_analysis:
     path: ../

@@ -1,4 +1,4 @@
-include: package:bam_analysis/analysis_options.yaml
+include: package:theodo_analysis/analysis_options.yaml
 
 linter:
   rules:
