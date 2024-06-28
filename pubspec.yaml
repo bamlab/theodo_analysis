@@ -3,7 +3,6 @@ description: Lint and dcm rules for Dart and Flutter used internally at BAM.
 homepage: https://github.com/bamlab/bam_analysis
 repository: https://github.com/bamlab/bam_analysis
 version: 1.0.0
-publish_to: none
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
