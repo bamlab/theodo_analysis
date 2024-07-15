@@ -1,11 +1,11 @@
 # THEODO Analysis
 
 <p>
-  <a href="https://www.bam.tech">
-  <img  alt="logo" src="https://raw.githubusercontent.com/bamlab/theodo_analysis/main/doc/logo_bam.png" width="200"/>
+  <a href="https://apps.theodo.com">
+  <img  alt="logo" src="https://raw.githubusercontent.com/bamlab/theodo_analysis/main/doc/theodo_apps_white.png" width="200"/>
   </a>
   </br>
-  <p>Lint and dcm rules for Dart and Flutter used internally at <a href="https://www.bam.tech">Theodo Apps</a> ❤️💙💛.</p>
+  <p>Lint and dcm rules for Dart and Flutter used internally at <a href="https://apps.theodo.com">Theodo Apps</a> ❤️💙💛.</p>
   <b>Note:</b> This package was heavily inspired by <a href="https://github.com/VeryGoodOpenSource/very_good_analysis">very_good_analysis</a>.
 </p>
 
@@ -82,6 +82,6 @@ dart_code_metrics:
 ```
 ## 👉 About Theodo Apps
 
-We are a 130 people company developing and designing universal applications with [React Native](https://www.bam.tech/expertise/react-native) and [Flutter](https://www.bam.tech/expertise/flutter) using the Lean & Agile methodology. To get more information on the solutions that would suit your needs, feel free to get in touch by [email](mailto://contact@bam.tech) or through or [contact form](https://www.bam.tech/contact)!
+We are a 130 people company developing and designing universal applications with [React Native](https://apps.theodo.com/expertise/react-native) and [Flutter](https://apps.theodo.com/expertise/flutter) using the Lean & Agile methodology. To get more information on the solutions that would suit your needs, feel free to get in touch by [email](mailto://contact-apps@theodo.com) or through or [contact form](https://apps.theodo.com/contact)!
 
 We will always answer you with pleasure 😁
