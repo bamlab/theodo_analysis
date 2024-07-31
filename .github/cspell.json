@@ -15,8 +15,5 @@
     }
   ],
   "useGitignore": true,
-  "words": [
-    "bam_analysis",
-    "multiplatform",
-  ]
+  "words": ["multiplatform", "theodo_analysis", "theodo"]
 }
