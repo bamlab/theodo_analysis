@@ -244,7 +244,6 @@ dart_code_metrics:
   
   rules:
     - avoid-substring
-    - avoid-banned-imports
     - avoid-cascade-after-if-null
     - avoid-collection-methods-with-unrelated-types
     - avoid-duplicate-exports
