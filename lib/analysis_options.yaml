@@ -408,7 +408,6 @@ dart_code_metrics:
     - prefer-private-extension-type-field
     - avoid-casting-to-extension-type
     - avoid-conditions-with-boolean-literals
-    - no-magic-string
     - avoid-ref-read-inside-build
     - avoid-ref-watch-outside-build
     - avoid-unnecessary-consumer-widgets
@@ -448,3 +447,11 @@ dart_code_metrics:
         ignore-single-boolean: true
     - prefer-switch-with-enums:
         ignore-contains: false
+    - no-magic-string:
+        exclude:
+          - test/**
+          - cheat_codes/**
+        allow-only-once: true
+        ignored-invocations:
+          - print
+          - debugPrint
