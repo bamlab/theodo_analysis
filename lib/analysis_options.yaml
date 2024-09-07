@@ -346,7 +346,6 @@ dart_code_metrics:
     - avoid-async-call-in-sync-function
     - avoid-duplicate-mixins
     - avoid-nullable-interpolation
-    - prefer-named-boolean-parameters
     - avoid-unused-instances
     - prefer-correct-for-loop-increment
     - prefer-public-exception-classes
