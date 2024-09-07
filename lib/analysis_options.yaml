@@ -367,7 +367,6 @@ dart_code_metrics:
     - avoid-long-files
     - avoid-accessing-collections-by-constant-index
     - avoid-extensions-on-records
-    - prefer-named-imports
     - prefer-null-aware-spread
     - prefer-unique-test-names
     - avoid-inferrable-type-arguments
