@@ -376,7 +376,6 @@ dart_code_metrics:
     - avoid-unnecessary-super
     - prefer-correct-setter-parameter-name
     - prefer-prefixed-global-constants
-    - prefer-correct-callback-field-name
     - prefer-explicit-function-type
     - prefer-typedefs-for-callbacks
     - prefer-correct-handler-name
