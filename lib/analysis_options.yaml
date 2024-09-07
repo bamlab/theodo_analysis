@@ -396,7 +396,6 @@ dart_code_metrics:
     - proper-super-calls
     - dispose-fields
     - avoid-empty-setstate
-    - prefer-widget-private-members
     - avoid-inherited-widget-in-initstate
     - avoid-late-context
     - avoid-state-constructors
@@ -450,3 +449,7 @@ dart_code_metrics:
         - build-method
     - prefer-getter-over-method:
         ignore-await: true
+    - prefer-widget-private-members:
+        ignore-static: false
+        ignored-names:
+          - of
