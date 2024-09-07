@@ -277,7 +277,6 @@ dart_code_metrics:
     - prefer-iterable-of
     - prefer-last
     - prefer-trailing-comma
-    - tag-name
     - avoid-long-functions
     - unnecessary-trailing-comma
     - avoid-duplicate-named-imports
