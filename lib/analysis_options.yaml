@@ -349,7 +349,6 @@ dart_code_metrics:
     - avoid-unused-instances
     - prefer-correct-for-loop-increment
     - prefer-public-exception-classes
-    - match-class-name-pattern
     - newline-before-case
     - avoid-unnecessary-reassignment
     - prefer-getter-over-method
