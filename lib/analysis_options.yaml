@@ -308,7 +308,6 @@ dart_code_metrics:
     - avoid-bottom-type-in-records
     - avoid-nested-records
     - avoid-function-type-in-records
-    - avoid-positional-record-field-access
     - avoid-mixing-named-and-positional-fields
     - avoid-long-records
     - match-positional-field-names-on-assignment
