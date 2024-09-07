@@ -351,7 +351,6 @@ dart_code_metrics:
     - prefer-public-exception-classes
     - newline-before-case
     - avoid-unnecessary-reassignment
-    - prefer-getter-over-method
     - avoid-referencing-discarded-variables
     - avoid-unconditional-break
     - avoid-weak-cryptographic-algorithms
@@ -458,3 +457,5 @@ dart_code_metrics:
         - did-update-widget-method
         - dispose-method
         - build-method
+    - prefer-getter-over-method:
+        ignore-await: true
