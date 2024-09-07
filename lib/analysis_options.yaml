@@ -372,7 +372,6 @@ dart_code_metrics:
     - avoid-duplicate-cascades
     - prefer-specific-cases-first
     - avoid-duplicate-switch-case-conditions
-    - avoid-missing-test-files
     - avoid-collection-mutating-methods
     - prefer-explicit-type-arguments
     - avoid-unnecessary-super
