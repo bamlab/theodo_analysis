@@ -338,7 +338,6 @@ dart_code_metrics:
     - avoid-unnecessary-futures
     - avoid-shadowed-extension-methods
     - avoid-barrel-files
-    - avoid-importing-entrypoint-exports
     - avoid-double-slash-imports
     - avoid-unnecessary-conditionals
     - missing-test-assertion
