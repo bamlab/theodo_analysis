@@ -243,6 +243,7 @@ dart_code_metrics:
     - '**/*.graphql.dart'
   
   rules:
+    - avoid-unassigned-late-fields
     - avoid-substring
     - avoid-cascade-after-if-null
     - avoid-collection-methods-with-unrelated-types
@@ -320,7 +321,6 @@ dart_code_metrics:
     - avoid-duplicate-patterns
     - avoid-unnecessary-return
     - avoid-future-tostring
-    - avoid-unassigned-late-fields-keyword
     - prefer-test-matchers
     - prefer-correct-stream-return-type
     - avoid-nested-futures
