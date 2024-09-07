@@ -2,7 +2,6 @@ analyzer:
   language:
       strict-casts: true
       strict-inference: true
-      strict-raw-types: true
 
   exclude:
     - 'build/**'
@@ -14,7 +13,6 @@ analyzer:
 linter:
   rules:
     - always_declare_return_types
-    - always_put_control_body_on_new_line
     - always_put_required_named_parameters_first
     - always_use_package_imports
     - annotate_overrides
@@ -29,12 +27,13 @@ linter:
     - avoid_field_initializers_in_const_classes
     - avoid_final_parameters
     - avoid_function_literals_in_foreach_calls
-    - avoid_implementing_value_types
+    - avoid_implementing_value_types:
+        excludes:
+          - '**m/*mocks.dart'
     - avoid_init_to_null
     - avoid_js_rounded_ints
     - avoid_multiple_declarations_per_line
     - avoid_null_checks_in_equality_operators
-    - avoid_positional_boolean_parameters
     - avoid_print
     - avoid_private_typedef_functions
     - avoid_redundant_argument_values
@@ -43,7 +42,6 @@ linter:
     - avoid_return_types_on_setters
     - avoid_returning_null_for_void
     - avoid_returning_this
-    - avoid_setters_without_getters
     - avoid_shadowing_type_parameters
     - avoid_single_cascade_in_expression_statements
     - avoid_slow_async_io
@@ -62,7 +60,6 @@ linter:
     - close_sinks
     - collection_methods_unrelated_type
     - combinators_ordering
-    - comment_references
     - conditional_uri_does_not_exist
     - constant_identifier_names
     - control_flow_in_finally
@@ -97,7 +94,6 @@ linter:
     - no_default_cases
     - no_duplicate_case_values
     - no_leading_underscores_for_library_prefixes
-    - no_leading_underscores_for_local_identifiers
     - no_logic_in_create_state
     - no_runtimeType_toString
     - non_constant_identifier_names
@@ -243,9 +239,8 @@ dart_code_metrics:
     - '**/*.graphql.dart'
   
   rules:
+    - avoid-unassigned-late-fields
     - avoid-substring
-    - arguments-ordering
-    - avoid-banned-imports
     - avoid-cascade-after-if-null
     - avoid-collection-methods-with-unrelated-types
     - avoid-duplicate-exports
@@ -261,14 +256,11 @@ dart_code_metrics:
     - avoid-unnecessary-type-casts
     - avoid-unrelated-type-assertions
     - avoid-unused-parameters
-    - ban-name
     - binary-expression-operand-order
     - double-literal-format
-    - member-ordering
     - newline-before-return
     - no-boolean-literal-compare
     - no-empty-block
-    - no-equal-arguments
     - no-equal-then-else
     - no-object-declaration
     - prefer-async-await
@@ -282,9 +274,7 @@ dart_code_metrics:
     - prefer-iterable-of
     - prefer-last
     - prefer-trailing-comma
-    - tag-name
     - avoid-long-functions
-    - unnecessary-trailing-comma
     - avoid-duplicate-named-imports
     - prefer-return-await
     - avoid-collapsible-if
@@ -292,24 +282,18 @@ dart_code_metrics:
     - avoid-redundant-else
     - avoid-self-assignment
     - avoid-self-compare
-    - avoid-unnecessary-nullable-return-type
     - avoid-unrelated-type-casts
-    - format-test-name
     - no-equal-switch-case
     - no-equal-conditions
     - prefer-declaring-const-constructor
-    - prefer-correct-switch-length
     - avoid-equal-expressions
     - avoid-declaring-call-method
     - prefer-early-return
     - avoid-missed-calls
     - avoid-redundant-pragma-inline
-    - prefer-unwrapping-future-or
     - avoid-unnecessary-negations
-    - avoid-banned-file-names
     - avoid-unused-generics
     - avoid-inverted-boolean-checks
-    - avoid-banned-types
     - function-always-returns-null
     - prefer-visible-for-testing-on-members
     - avoid-throw-objects-without-tostring
@@ -319,7 +303,6 @@ dart_code_metrics:
     - avoid-bottom-type-in-records
     - avoid-nested-records
     - avoid-function-type-in-records
-    - avoid-positional-record-field-access
     - avoid-mixing-named-and-positional-fields
     - avoid-long-records
     - match-positional-field-names-on-assignment
@@ -332,7 +315,6 @@ dart_code_metrics:
     - avoid-duplicate-patterns
     - avoid-unnecessary-return
     - avoid-future-tostring
-    - avoid-unassigned-late-fields-keyword
     - prefer-test-matchers
     - prefer-correct-stream-return-type
     - avoid-nested-futures
@@ -350,7 +332,6 @@ dart_code_metrics:
     - avoid-unnecessary-futures
     - avoid-shadowed-extension-methods
     - avoid-barrel-files
-    - avoid-importing-entrypoint-exports
     - avoid-double-slash-imports
     - avoid-unnecessary-conditionals
     - missing-test-assertion
@@ -359,14 +340,11 @@ dart_code_metrics:
     - avoid-async-call-in-sync-function
     - avoid-duplicate-mixins
     - avoid-nullable-interpolation
-    - prefer-named-boolean-parameters
     - avoid-unused-instances
     - prefer-correct-for-loop-increment
     - prefer-public-exception-classes
-    - match-class-name-pattern
     - newline-before-case
     - avoid-unnecessary-reassignment
-    - prefer-getter-over-method
     - avoid-referencing-discarded-variables
     - avoid-unconditional-break
     - avoid-weak-cryptographic-algorithms
@@ -383,25 +361,17 @@ dart_code_metrics:
     - avoid-long-files
     - avoid-accessing-collections-by-constant-index
     - avoid-extensions-on-records
-    - prefer-named-imports
     - prefer-null-aware-spread
     - prefer-unique-test-names
-    - avoid-inferrable-type-arguments
     - avoid-duplicate-cascades
     - prefer-specific-cases-first
     - avoid-duplicate-switch-case-conditions
-    - avoid-missing-test-files
-    - avoid-collection-mutating-methods
     - prefer-explicit-type-arguments
     - avoid-unnecessary-super
     - prefer-correct-setter-parameter-name
     - prefer-prefixed-global-constants
-    - prefer-correct-callback-field-name
     - prefer-explicit-function-type
-    - prefer-typedefs-for-callbacks
-    - prefer-correct-handler-name
     - prefer-addition-subtraction-assignments
-    - avoid-banned-annotations
     - prefer-define-hero-tag
     - always-remove-listener
     - avoid-border-all
@@ -418,10 +388,8 @@ dart_code_metrics:
     - use-setstate-synchronously
     - avoid-incomplete-copy-with
     - proper-super-calls
-    - add-copy-with
     - dispose-fields
     - avoid-empty-setstate
-    - prefer-widget-private-members
     - avoid-inherited-widget-in-initstate
     - avoid-late-context
     - avoid-state-constructors
@@ -432,29 +400,60 @@ dart_code_metrics:
     - avoid-recursive-widget-calls
     - prefer-text-rich
     - prefer-sliver-prefix
-    - prefer-switch-with-enums
     - avoid-misused-test-matchers
-    - prefer-use-prefix
-    - avoid-conditional-hooks
-    - avoid-hooks-outside-build
     - avoid-undisposed-instances
     - avoid-duplicate-map-keys
     - move-variable-outside-iteration
     - avoid-nullable-tostring
     - avoid-unassigned-stream-subscriptions
     - avoid-contradictory-expressions
-    - avoid-returning-void
     - prefer-private-extension-type-field
     - avoid-casting-to-extension-type
-    - prefer-overriding-parent-equality
-    - avoid-unnecessary-hook-widgets
     - avoid-conditions-with-boolean-literals
-    - no-magic-string
     - avoid-ref-read-inside-build
     - avoid-ref-watch-outside-build
     - avoid-unnecessary-consumer-widgets
-    - prefer-use-callback
-    - avoid-misused-hooks
     - avoid-collection-equality-checks
     - avoid-multi-assignment
     - prefer-switch-with-sealed-classes
+    - member-ordering:
+        alphabetize: false
+        order:
+          - constructors
+          - public-fields
+          - private-fields
+        widgets-order:
+          - constructors
+          - public-fields
+          - private-fields
+          - init-state-method
+          - did-change-dependencies-method
+          - did-update-widget-method
+          - dispose-method
+          - build-method
+    - prefer-widget-private-members:
+        ignore-static: false
+        ignored-names:
+          - of
+    - avoid-shadowing:
+        ignore-static: true
+        ignore-fields: true
+        ignore-parameters: true
+        ignored-names:
+          - context
+          - ref
+          - child
+          - formGroup
+    - prefer-named-boolean-parameters:
+        ignore-single: true
+        ignore-single-boolean: true
+    - prefer-switch-with-enums:
+        ignore-contains: false
+    - no-magic-string:
+        exclude:
+          - test/**
+          - cheat_codes/**
+        allow-only-once: true
+        ignored-invocations:
+          - print
+          - debugPrint
