@@ -259,7 +259,6 @@ dart_code_metrics:
     - avoid-unnecessary-type-casts
     - avoid-unrelated-type-assertions
     - avoid-unused-parameters
-    - ban-name
     - binary-expression-operand-order
     - double-literal-format
     - member-ordering
