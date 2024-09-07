@@ -406,7 +406,6 @@ dart_code_metrics:
     - avoid-recursive-widget-calls
     - prefer-text-rich
     - prefer-sliver-prefix
-    - prefer-switch-with-enums
     - avoid-misused-test-matchers
     - prefer-use-prefix
     - avoid-conditional-hooks
