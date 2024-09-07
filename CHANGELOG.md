@@ -2,5 +2,8 @@
 
 All notable changes to the `theodo_analysis` package will be documented in this file.
 
-## 1.0.0 - 2024-06-28
+## 1.0.1 - 2024-09-07
 Initial published version of `theodo_analysis`
+
+## 1.0.0 - 2024-06-28
+First draft `theodo_analysis`
