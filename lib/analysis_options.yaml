@@ -377,7 +377,6 @@ dart_code_metrics:
     - prefer-correct-setter-parameter-name
     - prefer-prefixed-global-constants
     - prefer-explicit-function-type
-    - prefer-correct-handler-name
     - prefer-addition-subtraction-assignments
     - avoid-banned-annotations
     - prefer-define-hero-tag
