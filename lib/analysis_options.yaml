@@ -282,7 +282,6 @@ dart_code_metrics:
     - avoid-redundant-else
     - avoid-self-assignment
     - avoid-self-compare
-    - avoid-unnecessary-nullable-return-type
     - avoid-unrelated-type-casts
     - no-equal-switch-case
     - no-equal-conditions
