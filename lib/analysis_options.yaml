@@ -446,3 +446,5 @@ dart_code_metrics:
     - prefer-named-boolean-parameters:
         ignore-single: true
         ignore-single-boolean: true
+    - prefer-switch-with-enums:
+        ignore-contains: false
