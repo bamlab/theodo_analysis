@@ -369,7 +369,6 @@ dart_code_metrics:
     - avoid-extensions-on-records
     - prefer-null-aware-spread
     - prefer-unique-test-names
-    - avoid-inferrable-type-arguments
     - avoid-duplicate-cascades
     - prefer-specific-cases-first
     - avoid-duplicate-switch-case-conditions
