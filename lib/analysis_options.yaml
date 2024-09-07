@@ -378,7 +378,6 @@ dart_code_metrics:
     - prefer-prefixed-global-constants
     - prefer-explicit-function-type
     - prefer-addition-subtraction-assignments
-    - avoid-banned-annotations
     - prefer-define-hero-tag
     - always-remove-listener
     - avoid-border-all
