@@ -408,7 +408,6 @@ dart_code_metrics:
     - avoid-nullable-tostring
     - avoid-unassigned-stream-subscriptions
     - avoid-contradictory-expressions
-    - avoid-returning-void
     - prefer-private-extension-type-field
     - avoid-casting-to-extension-type
     - avoid-conditions-with-boolean-literals
