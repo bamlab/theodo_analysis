@@ -296,7 +296,6 @@ dart_code_metrics:
     - prefer-early-return
     - avoid-missed-calls
     - avoid-redundant-pragma-inline
-    - prefer-unwrapping-future-or
     - avoid-unnecessary-negations
     - avoid-banned-file-names
     - avoid-unused-generics
