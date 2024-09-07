@@ -416,35 +416,33 @@ dart_code_metrics:
     - avoid-multi-assignment
     - prefer-switch-with-sealed-classes
     - member-ordering:
-      alphabetize: false
-      order:
-        - constructors
-        - public-fields
-        - private-fields
-      widgets-order:
-        - constructors
-        - public-fields
-        - private-fields
-        - init-state-method
-        - did-change-dependencies-method
-        - did-update-widget-method
-        - dispose-method
-        - build-method
-    - prefer-getter-over-method:
-        ignore-await: true
+        alphabetize: false
+        order:
+          - constructors
+          - public-fields
+          - private-fields
+        widgets-order:
+          - constructors
+          - public-fields
+          - private-fields
+          - init-state-method
+          - did-change-dependencies-method
+          - did-update-widget-method
+          - dispose-method
+          - build-method
     - prefer-widget-private-members:
         ignore-static: false
         ignored-names:
           - of
     - avoid-shadowing:
-      ignore-static: true
-      ignore-fields: true
-      ignore-parameters: true
-      ignored-names:
-        - context
-        - ref
-        - child
-        - formGroup
+        ignore-static: true
+        ignore-fields: true
+        ignore-parameters: true
+        ignored-names:
+          - context
+          - ref
+          - child
+          - formGroup
     - prefer-named-boolean-parameters:
-      ignore-single: true
-      ignore-single-boolean: true
+        ignore-single: true
+        ignore-single-boolean: true
