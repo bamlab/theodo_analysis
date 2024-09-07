@@ -261,7 +261,6 @@ dart_code_metrics:
     - avoid-unused-parameters
     - binary-expression-operand-order
     - double-literal-format
-    - member-ordering
     - newline-before-return
     - no-boolean-literal-compare
     - no-empty-block
@@ -455,3 +454,18 @@ dart_code_metrics:
     - avoid-collection-equality-checks
     - avoid-multi-assignment
     - prefer-switch-with-sealed-classes
+    - member-ordering:
+      alphabetize: false
+      order:
+        - constructors
+        - public-fields
+        - private-fields
+      widgets-order:
+        - constructors
+        - public-fields
+        - private-fields
+        - init-state-method
+        - did-change-dependencies-method
+        - did-update-widget-method
+        - dispose-method
+        - build-method
