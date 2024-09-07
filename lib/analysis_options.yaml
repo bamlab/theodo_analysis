@@ -299,7 +299,6 @@ dart_code_metrics:
     - avoid-unnecessary-negations
     - avoid-unused-generics
     - avoid-inverted-boolean-checks
-    - avoid-banned-types
     - function-always-returns-null
     - prefer-visible-for-testing-on-members
     - avoid-throw-objects-without-tostring
