@@ -297,7 +297,6 @@ dart_code_metrics:
     - avoid-missed-calls
     - avoid-redundant-pragma-inline
     - avoid-unnecessary-negations
-    - avoid-banned-file-names
     - avoid-unused-generics
     - avoid-inverted-boolean-checks
     - avoid-banned-types
