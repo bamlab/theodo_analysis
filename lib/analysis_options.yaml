@@ -273,7 +273,6 @@ dart_code_metrics:
     - prefer-last
     - prefer-trailing-comma
     - avoid-long-functions
-    - unnecessary-trailing-comma
     - avoid-duplicate-named-imports
     - prefer-return-await
     - avoid-collapsible-if
