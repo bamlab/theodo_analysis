@@ -24,7 +24,7 @@ flutter pub add dev:theodo_analysis
 Then, add an include in `analysis_options.yaml`:
 
 ```yaml
-include: package:theodo_analysis/theodo_analysis.yaml
+include: package:theodo_analysis/analysis_options.yaml
 ```
 **Optional**: enable DCM.
 This packages also include a subset of [dcm](https://dcm.dev) rules. Since dcm needs an API key to start. You can skip this part. Also, we consider it as a great tool, and we recommend it's usage.
