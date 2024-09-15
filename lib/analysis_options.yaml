@@ -89,6 +89,7 @@ linter:
     - library_private_types_in_public_api
     - lines_longer_than_80_chars
     - literal_only_boolean_expressions
+    - list-all-equatable-fields
     - missing_whitespace_between_adjacent_strings
     - no_adjacent_strings_in_list
     - no_default_cases
