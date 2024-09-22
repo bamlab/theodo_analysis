@@ -307,7 +307,6 @@ dart_code_metrics:
     - avoid-throw-objects-without-tostring
     - avoid-unsafe-collection-methods
     - avoid-one-field-records
-    - move-records-to-typedefs
     - avoid-bottom-type-in-records
     - avoid-nested-records
     - avoid-function-type-in-records
