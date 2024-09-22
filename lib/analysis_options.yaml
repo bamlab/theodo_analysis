@@ -314,7 +314,6 @@ dart_code_metrics:
     - avoid-mixing-named-and-positional-fields
     - avoid-long-records
     - match-positional-field-names-on-assignment
-    - avoid-redundant-positional-field-name
     - avoid-bottom-type-in-patterns
     - avoid-explicit-pattern-field-name
     - prefer-wildcard-pattern
