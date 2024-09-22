@@ -353,7 +353,6 @@ dart_code_metrics:
     - avoid-unused-instances
     - prefer-correct-for-loop-increment
     - prefer-public-exception-classes
-    - newline-before-case
     - avoid-unnecessary-reassignment
     - avoid-referencing-discarded-variables
     - avoid-unconditional-break
