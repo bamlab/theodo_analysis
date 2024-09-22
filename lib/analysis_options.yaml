@@ -426,7 +426,7 @@ dart_code_metrics:
           - dispose-method
           - build-method
     - prefer-widget-private-members:
-        ignore-static: false
+        ignore-static: true
         ignored-names:
           - of
     - avoid-shadowing:
