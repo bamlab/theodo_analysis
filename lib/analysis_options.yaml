@@ -2,6 +2,15 @@ analyzer:
   language:
       strict-casts: true
       strict-inference: true
+  errors:
+    # Doesn't work with freezed and JsonKey
+    invalid_annotation_target: ignore
+    # Not that very usefull
+    inference_failure_on_function_invocation: ignore
+    # Not that very usefull
+    inference_failure_on_collection_literal: ignore
+    # Not that very usefull
+    inference_failure_on_instance_creation: ignore
 
   exclude:
     - 'build/**'
@@ -241,7 +250,6 @@ dart_code_metrics:
   
   rules:
     - avoid-unassigned-late-fields
-    - avoid-substring
     - avoid-cascade-after-if-null
     - avoid-collection-methods-with-unrelated-types
     - avoid-duplicate-exports
@@ -268,9 +276,7 @@ dart_code_metrics:
     - prefer-commenting-analyzer-ignores
     - prefer-conditional-expressions
     - prefer-correct-test-file-name
-    - prefer-correct-type-name
     - prefer-enums-by-name
-    - prefer-first
     - prefer-immediate-return
     - prefer-iterable-of
     - prefer-last
@@ -300,14 +306,12 @@ dart_code_metrics:
     - avoid-throw-objects-without-tostring
     - avoid-unsafe-collection-methods
     - avoid-one-field-records
-    - move-records-to-typedefs
     - avoid-bottom-type-in-records
     - avoid-nested-records
     - avoid-function-type-in-records
     - avoid-mixing-named-and-positional-fields
     - avoid-long-records
     - match-positional-field-names-on-assignment
-    - avoid-redundant-positional-field-name
     - avoid-bottom-type-in-patterns
     - avoid-explicit-pattern-field-name
     - prefer-wildcard-pattern
@@ -328,8 +332,6 @@ dart_code_metrics:
     - avoid-mutating-parameters
     - avoid-unnecessary-call
     - no-equal-nested-conditions
-    - prefer-correct-error-name
-    - map-keys-ordering
     - avoid-unnecessary-futures
     - avoid-shadowed-extension-methods
     - avoid-barrel-files
@@ -338,26 +340,21 @@ dart_code_metrics:
     - missing-test-assertion
     - avoid-map-keys-contains
     - prefer-correct-json-casts
-    - avoid-async-call-in-sync-function
     - avoid-duplicate-mixins
     - avoid-nullable-interpolation
     - avoid-unused-instances
     - prefer-correct-for-loop-increment
     - prefer-public-exception-classes
-    - newline-before-case
     - avoid-unnecessary-reassignment
     - avoid-referencing-discarded-variables
     - avoid-unconditional-break
     - avoid-weak-cryptographic-algorithms
     - avoid-identical-exception-handling-blocks
     - avoid-recursive-calls
-    - move-variable-closer-to-its-usage
-    - avoid-missing-interpolation
     - avoid-unnecessary-if
     - avoid-passing-default-values
     - avoid-unnecessary-late
     - avoid-wildcard-cases-with-enums
-    - match-getter-setter-field-names
     - avoid-unnecessary-getter
     - avoid-long-files
     - avoid-accessing-collections-by-constant-index
@@ -370,10 +367,7 @@ dart_code_metrics:
     - prefer-explicit-type-arguments
     - avoid-unnecessary-super
     - prefer-correct-setter-parameter-name
-    - prefer-prefixed-global-constants
     - prefer-explicit-function-type
-    - prefer-addition-subtraction-assignments
-    - prefer-define-hero-tag
     - always-remove-listener
     - avoid-border-all
     - avoid-returning-widgets
@@ -392,7 +386,6 @@ dart_code_metrics:
     - dispose-fields
     - avoid-empty-setstate
     - avoid-inherited-widget-in-initstate
-    - avoid-late-context
     - avoid-state-constructors
     - avoid-unnecessary-stateful-widgets
     - avoid-stateless-widget-initialized-fields
@@ -433,7 +426,7 @@ dart_code_metrics:
           - dispose-method
           - build-method
     - prefer-widget-private-members:
-        ignore-static: false
+        ignore-static: true
         ignored-names:
           - of
     - avoid-shadowing:
