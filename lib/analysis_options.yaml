@@ -250,7 +250,6 @@ dart_code_metrics:
   
   rules:
     - avoid-unassigned-late-fields
-    - avoid-substring
     - avoid-cascade-after-if-null
     - avoid-collection-methods-with-unrelated-types
     - avoid-duplicate-exports
