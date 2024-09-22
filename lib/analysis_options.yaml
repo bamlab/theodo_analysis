@@ -338,7 +338,6 @@ dart_code_metrics:
     - avoid-unnecessary-call
     - no-equal-nested-conditions
     - prefer-correct-error-name
-    - map-keys-ordering
     - avoid-unnecessary-futures
     - avoid-shadowed-extension-methods
     - avoid-barrel-files
