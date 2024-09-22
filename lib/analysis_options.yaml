@@ -2,6 +2,15 @@ analyzer:
   language:
       strict-casts: true
       strict-inference: true
+  errors:
+    # Doesn't work with freezed and JsonKey
+    invalid_annotation_target: ignore
+    # Not that very usefull
+    inference_failure_on_function_invocation: ignore
+    # Not that very usefull
+    inference_failure_on_collection_literal: ignore
+    # Not that very usefull
+    inference_failure_on_instance_creation: ignore
 
   exclude:
     - 'build/**'
