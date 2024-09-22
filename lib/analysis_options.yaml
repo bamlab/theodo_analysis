@@ -356,7 +356,6 @@ dart_code_metrics:
     - avoid-weak-cryptographic-algorithms
     - avoid-identical-exception-handling-blocks
     - avoid-recursive-calls
-    - move-variable-closer-to-its-usage
     - avoid-unnecessary-if
     - avoid-passing-default-values
     - avoid-unnecessary-late
