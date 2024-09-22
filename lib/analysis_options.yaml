@@ -279,7 +279,6 @@ dart_code_metrics:
     - prefer-correct-test-file-name
     - prefer-correct-type-name
     - prefer-enums-by-name
-    - prefer-first
     - prefer-immediate-return
     - prefer-iterable-of
     - prefer-last
