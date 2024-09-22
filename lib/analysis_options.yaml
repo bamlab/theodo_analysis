@@ -346,7 +346,6 @@ dart_code_metrics:
     - missing-test-assertion
     - avoid-map-keys-contains
     - prefer-correct-json-casts
-    - avoid-async-call-in-sync-function
     - avoid-duplicate-mixins
     - avoid-nullable-interpolation
     - avoid-unused-instances
