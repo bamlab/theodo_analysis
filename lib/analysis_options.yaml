@@ -372,7 +372,6 @@ dart_code_metrics:
     - avoid-unnecessary-super
     - prefer-correct-setter-parameter-name
     - prefer-explicit-function-type
-    - prefer-define-hero-tag
     - always-remove-listener
     - avoid-border-all
     - avoid-returning-widgets
