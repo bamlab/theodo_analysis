@@ -2,6 +2,10 @@
 
 All notable changes to the `theodo_analysis` package will be documented in this file.
 
+## 1.3.0
+
+- feat: Remove some unecessary rules
+
 ## 1.2.0
 
 - lint: Add list-all-equatable-fields
