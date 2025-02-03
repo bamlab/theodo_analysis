@@ -2,6 +2,10 @@
 
 All notable changes to the `theodo_analysis` package will be documented in this file.
 
+## 1.4.0
+
+- feat: Updgrade dcm to 1.26.0 and add news rules
+
 ## 1.3.1
 
 - fix: Fix list-all-equatable-fields rule definition

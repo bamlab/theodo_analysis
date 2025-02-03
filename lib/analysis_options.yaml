@@ -264,6 +264,11 @@ dart_code_metrics:
     - avoid-unnecessary-type-casts
     - avoid-unrelated-type-assertions
     - avoid-unused-parameters
+    - avoid-late-final-reassignment
+    - avoid-referencing-subclasses
+    - avoid-complex-loop-conditions
+    - use-existing-variable
+    - avoid-unnecessary-patterns
     - binary-expression-operand-order
     - double-literal-format
     - newline-before-return
@@ -271,6 +276,20 @@ dart_code_metrics:
     - no-empty-block
     - no-equal-then-else
     - no-object-declaration
+    - prefer-sized-box-square
+    - prefer-center-over-align
+    - avoid-flexible-outside-flex
+    - prefer-padding-over-container
+    - avoid-incorrect-uri
+    - prefer-align-over-container
+    - prefer-transform-over-container
+    - use-closest-build-context
+    - use-existing-destructuring
+    - avoid-continue
+    - no-empty-string
+    - prefer-switch-expression
+    - avoid-future-ignore
+    - avoid-commented-out-code
     - prefer-async-await
     - prefer-commenting-analyzer-ignores
     - prefer-conditional-expressions
