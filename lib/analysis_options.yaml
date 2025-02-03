@@ -275,6 +275,11 @@ dart_code_metrics:
     - no-empty-block
     - no-equal-then-else
     - no-object-declaration
+    - prefer-sized-box-square
+    - prefer-center-over-align
+    - avoid-flexible-outside-flex
+    - prefer-padding-over-container
+    - avoid-incorrect-uri
     - prefer-async-await
     - prefer-commenting-analyzer-ignores
     - prefer-conditional-expressions
