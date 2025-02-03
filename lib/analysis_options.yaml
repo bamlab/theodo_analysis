@@ -264,6 +264,10 @@ dart_code_metrics:
     - avoid-unnecessary-type-casts
     - avoid-unrelated-type-assertions
     - avoid-unused-parameters
+    - avoid-late-final-reassignment
+    - avoid-referencing-subclasses
+    - avoid-complex-loop-conditions
+    - use-existing-variable
     - binary-expression-operand-order
     - double-literal-format
     - newline-before-return
