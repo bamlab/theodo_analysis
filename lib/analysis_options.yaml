@@ -281,6 +281,15 @@ dart_code_metrics:
     - avoid-flexible-outside-flex
     - prefer-padding-over-container
     - avoid-incorrect-uri
+    - prefer-align-over-container
+    - prefer-transform-over-container
+    - use-closest-build-context
+    - use-existing-destructuring
+    - avoid-continue
+    - no-empty-string
+    - prefer-switch-expression
+    - avoid-future-ignore
+    - avoid-commented-out-code
     - prefer-async-await
     - prefer-commenting-analyzer-ignores
     - prefer-conditional-expressions
