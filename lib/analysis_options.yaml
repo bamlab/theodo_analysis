@@ -21,6 +21,10 @@ analyzer:
 
 linter:
   rules:
+    - strict_top_level_inference
+    - unnecessary_underscores
+    - unintended_html_in_doc_comment
+    - avoid-unnecessary-null-checks
     - always_declare_return_types
     - always_put_required_named_parameters_first
     - always_use_package_imports
@@ -283,6 +287,9 @@ dart_code_metrics:
     - avoid-incorrect-uri
     - prefer-align-over-container
     - prefer-transform-over-container
+    - prefer-expect-later
+    - avoid-nested-try-statements
+    - avoid-unnecessary-block
     - use-closest-build-context
     - use-existing-destructuring
     - avoid-continue
@@ -362,6 +369,12 @@ dart_code_metrics:
     - avoid-duplicate-mixins
     - avoid-nullable-interpolation
     - avoid-unused-instances
+    - avoid-recursive-tostring
+    - avoid-nested-assignments
+    - avoid-unnecessary-compare-to
+    - pass-existing-future-to-future-builder
+    - pass-existing-stream-to-stream-builder
+    - prefer-compute-over-isolate-run
     - prefer-correct-for-loop-increment
     - prefer-public-exception-classes
     - avoid-unnecessary-reassignment
