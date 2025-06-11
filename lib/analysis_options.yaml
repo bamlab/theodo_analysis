@@ -283,6 +283,9 @@ dart_code_metrics:
     - avoid-incorrect-uri
     - prefer-align-over-container
     - prefer-transform-over-container
+    - prefer-expect-later
+    - avoid-nested-try-statements
+    - avoid-unnecessary-block
     - use-closest-build-context
     - use-existing-destructuring
     - avoid-continue
