@@ -21,6 +21,10 @@ analyzer:
 
 linter:
   rules:
+    - strict_top_level_inference
+    - unnecessary_underscores
+    - unintended_html_in_doc_comment
+    - avoid-unnecessary-null-checks
     - always_declare_return_types
     - always_put_required_named_parameters_first
     - always_use_package_imports
