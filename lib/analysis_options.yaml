@@ -1,7 +1,7 @@
 analyzer:
   language:
-      strict-casts: true
-      strict-inference: true
+    strict-casts: true
+    strict-inference: true
   errors:
     # Doesn't work with freezed and JsonKey
     invalid_annotation_target: ignore
@@ -235,22 +235,20 @@ dart_code_metrics:
           prop: builder
           list: false
           builder: true
-    
+
   metrics:
     cyclomatic-complexity: 20
     number-of-parameters: 4
     maximum-nesting-level: 5
 
   metrics-exclude:
-    - test/**
     - '**/*gicons.dart'
     - '**/*.graphql.dart'
 
   rules-exclude:
-    - test/**
     - '**/*gicons.dart'
     - '**/*.graphql.dart'
-  
+
   rules:
     - avoid-unassigned-late-fields
     - avoid-cascade-after-if-null
