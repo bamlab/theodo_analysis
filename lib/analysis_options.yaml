@@ -385,7 +385,7 @@ dart_code_metrics:
     - avoid-recursive-calls
     - avoid-unnecessary-if
     - avoid-passing-default-values
-    - avoid-unnecessary-late
+    - avoid-unnecessary-local-late
     - avoid-wildcard-cases-with-enums
     - avoid-unnecessary-getter
     - avoid-long-files
