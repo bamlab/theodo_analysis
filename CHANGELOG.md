@@ -2,6 +2,11 @@
 
 All notable changes to the `theodo_analysis` package will be documented in this file.
 
+## 1.5.0
+
+- feat: Enable DCM rules for test folder
+- fix: `avoid-unnecessary-late` has been renamed to `avoid-unnecessary-local-late`
+
 ## 1.4.0
 
 - feat: Upgrade dcm to 1.26.0 and add news rules
