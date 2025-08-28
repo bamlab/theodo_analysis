@@ -321,6 +321,11 @@ dart_code_metrics:
     - prefer-early-return
     - avoid-missed-calls
     - avoid-redundant-pragma-inline
+    - move-variable-outside-iteration
+    - prefer-spacing
+    - prefer-abstract-final-static-class
+    - dispose-class-fields
+    - handle-throwing-invocations
     - avoid-unnecessary-negations
     - avoid-unused-generics
     - avoid-inverted-boolean-checks
@@ -427,7 +432,6 @@ dart_code_metrics:
     - avoid-misused-test-matchers
     - avoid-undisposed-instances
     - avoid-duplicate-map-keys
-    - move-variable-outside-iteration
     - avoid-nullable-tostring
     - avoid-unassigned-stream-subscriptions
     - avoid-contradictory-expressions
