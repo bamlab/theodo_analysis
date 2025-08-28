@@ -250,6 +250,19 @@ dart_code_metrics:
     - '**/*.graphql.dart'
 
   rules:
+    - avoid-unnecessary-local-variable
+    - avoid-unnecessary-late-fields
+    - avoid-unnecessary-nullable-parameters
+    - prefer-returning-condition
+    - avoid-wildcard-cases-with-sealed-classes
+    - prefer-constrained-box-over-container
+    - prefer-void-callback
+    - prefer-async-callback
+    - prefer-immutable-provider-arguments
+    - avoid-public-notifier-properties
+    - avoid-ref-inside-state-dispose
+    - avoid-nullable-async-value-pattern
+    - avoid-unnecessary-null-checks
     - prefer-pushing-conditional-expressions
     - avoid-suspicious-global-reference
     - pass-correct-accepted-type
