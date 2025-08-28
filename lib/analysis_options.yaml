@@ -250,6 +250,31 @@ dart_code_metrics:
     - '**/*.graphql.dart'
 
   rules:
+    - avoid-unnecessary-local-variable
+    - avoid-unnecessary-late-fields
+    - avoid-unnecessary-nullable-parameters
+    - prefer-returning-condition
+    - avoid-wildcard-cases-with-sealed-classes
+    - prefer-constrained-box-over-container
+    - prefer-void-callback
+    - prefer-async-callback
+    - prefer-immutable-provider-arguments
+    - avoid-public-notifier-properties
+    - avoid-ref-inside-state-dispose
+    - avoid-nullable-async-value-pattern
+    - avoid-unnecessary-null-checks
+    - prefer-pushing-conditional-expressions
+    - avoid-suspicious-global-reference
+    - pass-correct-accepted-type
+    - avoid-unreachable-for-loop
+    - avoid-unnecessary-length-check
+    - prefer-specifying-future-value-type
+    - avoid-stream-tostring
+    - prefer-null-aware-elements
+    - prefer-null-aware-elements
+    - avoid-unnecessary-null-aware-elements
+    - prefer-single-setstate
+    - avoid-mounted-in-setstate
     - avoid-unassigned-late-fields
     - avoid-cascade-after-if-null
     - avoid-collection-methods-with-unrelated-types
@@ -321,6 +346,11 @@ dart_code_metrics:
     - prefer-early-return
     - avoid-missed-calls
     - avoid-redundant-pragma-inline
+    - move-variable-outside-iteration
+    - prefer-spacing
+    - prefer-abstract-final-static-class
+    - dispose-class-fields
+    - handle-throwing-invocations
     - avoid-unnecessary-negations
     - avoid-unused-generics
     - avoid-inverted-boolean-checks
@@ -427,7 +457,6 @@ dart_code_metrics:
     - avoid-misused-test-matchers
     - avoid-undisposed-instances
     - avoid-duplicate-map-keys
-    - move-variable-outside-iteration
     - avoid-nullable-tostring
     - avoid-unassigned-stream-subscriptions
     - avoid-contradictory-expressions
