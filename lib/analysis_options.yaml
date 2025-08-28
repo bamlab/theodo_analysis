@@ -250,6 +250,18 @@ dart_code_metrics:
     - '**/*.graphql.dart'
 
   rules:
+    - prefer-pushing-conditional-expressions
+    - avoid-suspicious-global-reference
+    - pass-correct-accepted-type
+    - avoid-unreachable-for-loop
+    - avoid-unnecessary-length-check
+    - prefer-specifying-future-value-type
+    - avoid-stream-tostring
+    - prefer-null-aware-elements
+    - prefer-null-aware-elements
+    - avoid-unnecessary-null-aware-elements
+    - prefer-single-setstate
+    - avoid-mounted-in-setstate
     - avoid-unassigned-late-fields
     - avoid-cascade-after-if-null
     - avoid-collection-methods-with-unrelated-types
