@@ -250,6 +250,12 @@ dart_code_metrics:
     - '**/*.graphql.dart'
 
   rules:
+    - avoid-unremovable-callbacks-in-listeners
+    - avoid-constant-switches
+    - avoid-constant-conditions
+    - match-base-class-default-value
+    - avoid-unused-local-variable
+    - prefer-equatable-mixin
     - avoid-unnecessary-local-variable
     - avoid-unnecessary-late-fields
     - avoid-unnecessary-nullable-parameters
