@@ -514,3 +514,9 @@ dart_code_metrics:
         ignored-invocations:
           - print
           - debugPrint
+
+  pubspec-rules:
+    - dependencies-ordering
+    - newline-before-pubspec-entry
+    - pubspec-ordering
+    - prefer-correct-topics
