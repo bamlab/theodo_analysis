@@ -262,7 +262,6 @@ dart_code_metrics:
     - avoid-public-notifier-properties
     - avoid-ref-inside-state-dispose
     - avoid-nullable-async-value-pattern
-    - avoid-unnecessary-null-checks
     - prefer-pushing-conditional-expressions
     - avoid-suspicious-global-reference
     - pass-correct-accepted-type
@@ -270,7 +269,6 @@ dart_code_metrics:
     - avoid-unnecessary-length-check
     - prefer-specifying-future-value-type
     - avoid-stream-tostring
-    - prefer-null-aware-elements
     - prefer-null-aware-elements
     - avoid-unnecessary-null-aware-elements
     - prefer-single-setstate
