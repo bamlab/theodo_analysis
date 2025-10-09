@@ -1,6 +1,6 @@
 name: theodo_analysis
 description: Lint and dcm rules for Dart and Flutter used internally at Theodo Apps.
-version: 1.6.0
+version: 1.7.0
 homepage: https://github.com/bamlab/theodo_analysis
 repository: https://github.com/bamlab/theodo_analysis
 
