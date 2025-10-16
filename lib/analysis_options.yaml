@@ -24,7 +24,6 @@ linter:
     - strict_top_level_inference
     - unnecessary_underscores
     - unintended_html_in_doc_comment
-    - avoid-unnecessary-null-checks
     - always_declare_return_types
     - always_put_required_named_parameters_first
     - always_use_package_imports
@@ -40,9 +39,7 @@ linter:
     - avoid_field_initializers_in_const_classes
     - avoid_final_parameters
     - avoid_function_literals_in_foreach_calls
-    - avoid_implementing_value_types:
-        excludes:
-          - '**m/*mocks.dart'
+    - avoid_implementing_value_types
     - avoid_init_to_null
     - avoid_js_rounded_ints
     - avoid_multiple_declarations_per_line
@@ -84,7 +81,6 @@ linter:
     - empty_catches
     - empty_constructor_bodies
     - empty_statements
-    - enable_null_safety
     - eol_at_end_of_file
     - exhaustive_cases
     - file_names
@@ -117,7 +113,6 @@ linter:
     - one_member_abstracts
     - only_throw_errors
     - overridden_fields
-    - package_api_docs
     - package_names
     - package_prefixed_library_names
     - parameter_assignments
@@ -199,7 +194,6 @@ linter:
     - unnecessary_to_list_in_spreads
     - unreachable_from_main
     - unrelated_type_equality_checks
-    - unsafe_html
     - use_build_context_synchronously
     - use_colored_box
     - use_decorated_box
