@@ -2,6 +2,10 @@
 
 All notable changes to the `theodo_analysis` package will be documented in this file.
 
+## 1.8.0
+
+- fix: dart rules lints were broken, re-add them
+
 ## 1.7.0
 
 - feat: Upgrade dcm to 1.32.0 and add news rules
