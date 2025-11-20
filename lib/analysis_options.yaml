@@ -245,6 +245,14 @@ dart_code_metrics:
     - '**/*.graphql.dart'
 
   rules:
+    - prefer-returning-shorthands
+    - prefer-shorthands-with-static-fields
+    - prefer-shorthands-with-enums
+    - avoid-nested-shorthands
+    - prefer-shorthands-with-constructors
+    - newline-before-constructor
+    - avoid-always-null-parameters
+    - avoid-unassigned-fields
     - avoid-unremovable-callbacks-in-listeners
     - avoid-constant-switches
     - avoid-constant-conditions
