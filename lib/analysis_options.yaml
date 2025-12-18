@@ -245,6 +245,16 @@ dart_code_metrics:
     - '**/*.graphql.dart'
 
   rules:
+    - pass-optional-argument:
+        entries:
+          - name: Icon
+            args:
+              - semanticsLabel
+    - avoid-immediately-invoked-functions
+    - avoid-complex-conditions:
+        threshold: 10
+    - avoid-assigning-notifiers
+    - use-ref-and-state-synchronously
     - prefer-returning-shorthands
     - prefer-shorthands-with-static-fields
     - prefer-shorthands-with-enums
