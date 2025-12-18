@@ -2,6 +2,10 @@
 
 All notable changes to the `theodo_analysis` package will be documented in this file.
 
+## 1.10.0
+
+- feat: Upgrade dcm to 1.34.0 and add news rules
+
 ## 1.9.0
 
 - feat: Upgrade dcm to 1.33.0 and add news rules
