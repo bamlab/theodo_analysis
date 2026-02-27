@@ -2,6 +2,11 @@
 
 All notable changes to the `theodo_analysis` package will be documented in this file.
 
+## 1.11.0
+
+- feat: Remove the "prefer-returning-shorthands" rule
+- feat: Support for dcm 1.35.0 (no new rules, no actual change)
+
 ## 1.10.0
 
 - feat: Upgrade dcm to 1.34.0 and add news rules

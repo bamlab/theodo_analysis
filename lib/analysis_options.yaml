@@ -13,11 +13,11 @@ analyzer:
     inference_failure_on_instance_creation: ignore
 
   exclude:
-    - 'build/**'
-    - '**/*.g.dart'
-    - '**/*.freezed.dart'
-    - '**/*gicons.dart'
-    - '**/*.graphql.dart'
+    - "build/**"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*gicons.dart"
+    - "**/*.graphql.dart"
 
 linter:
   rules:
@@ -28,7 +28,6 @@ linter:
     - always_put_required_named_parameters_first
     - always_use_package_imports
     - annotate_overrides
-    - avoid_as
     - avoid_bool_literals_in_conditional_expressions
     - avoid_catching_errors
     - avoid_double_and_int_checks
@@ -237,12 +236,12 @@ dart_code_metrics:
     maximum-nesting-level: 5
 
   metrics-exclude:
-    - '**/*gicons.dart'
-    - '**/*.graphql.dart'
+    - "**/*gicons.dart"
+    - "**/*.graphql.dart"
 
   rules-exclude:
-    - '**/*gicons.dart'
-    - '**/*.graphql.dart'
+    - "**/*gicons.dart"
+    - "**/*.graphql.dart"
 
   rules:
     - pass-optional-argument:
@@ -255,7 +254,6 @@ dart_code_metrics:
         threshold: 10
     - avoid-assigning-notifiers
     - use-ref-and-state-synchronously
-    - prefer-returning-shorthands
     - prefer-shorthands-with-static-fields
     - prefer-shorthands-with-enums
     - avoid-nested-shorthands
