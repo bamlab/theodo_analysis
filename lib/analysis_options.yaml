@@ -254,7 +254,6 @@ dart_code_metrics:
         threshold: 10
     - avoid-assigning-notifiers
     - use-ref-and-state-synchronously
-    - prefer-returning-shorthands
     - prefer-shorthands-with-static-fields
     - prefer-shorthands-with-enums
     - avoid-nested-shorthands
