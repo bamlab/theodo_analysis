@@ -244,6 +244,14 @@ dart_code_metrics:
     - "**/*.graphql.dart"
 
   rules:
+    - prefer-non-nulls
+    - add-equatable-props
+    - avoid-unassigned-local-variable
+    - avoid-unnecessary-parentheses
+    - avoid-implementation-in-mocks
+    - pass-mock-object
+    - prefer-correct-any-matcher
+    - use-then-answer
     - pass-optional-argument:
         entries:
           - name: Icon
