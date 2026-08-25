@@ -245,6 +245,7 @@ dart_code_metrics:
 
   rules:
     - prefer-non-nulls
+    - add-equatable-props
     - avoid-unassigned-local-variable
     - avoid-unnecessary-parentheses
     - avoid-implementation-in-mocks
